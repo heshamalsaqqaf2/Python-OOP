@@ -24,13 +24,38 @@
 
 
 # How to make a class inherit from another class
+# TODO: class ChildClasse(ParentClass):
+# TODO: {CLassBody}
+
 
 # Forms of inheritance in Python
 
+
+# TODO: This is Code In Folder Inheritance
+
+
 # Knowing the nature of the relationship between Classes and Objects
+class A:
+    pass
+
+
+class B(A):
+    pass
+
+
+class C(B):
+    pass
+
+
+print("Is B inherit form A: ", issubclass(B, A))  # True
+print("Is C inherit form B: ", issubclass(C, B))  # True
+print("Is C inherit form A: ", issubclass(C, A))  # True
+print("Is A inherit form B: ", issubclass(A, B))  # False
+print("Is A inherit form C: ", issubclass(A, C))  # False
 
 # Name conflicts when inheriting more than one class
-
+class C(B, C):
+    pass
 # Resolving name conflicts
 
 # Class objects
