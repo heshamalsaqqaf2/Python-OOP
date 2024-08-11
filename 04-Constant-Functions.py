@@ -7,6 +7,7 @@
 
 class StaticFunctions:
 
+    # TODO: Can You Access Function Form Class Name Directed.
     @staticmethod
     def function_static():
         print("This Is Static Functions")
@@ -15,4 +16,5 @@ class StaticFunctions:
         print("This Is Normal Functions")
 
 
+# ? Access Methods Static
 StaticFunctions.function_static()

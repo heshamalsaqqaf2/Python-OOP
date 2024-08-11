@@ -5,11 +5,12 @@
   3- Super() Functions
 """
 
-# The concept of Overriding
+# *The concept of Overriding
+# TODO: Compleat Study In Class Tody
 
-# Example Overriding
+# *Example Overriding
 # TODO: This is Code In Overriding Folders
 
 
-# Super() Functions
+# *Example Super() Functions
 # TODO: This is Code In Overriding Folders
